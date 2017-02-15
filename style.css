@@ -1,0 +1,15 @@
+.dashboard-off {
+	color: #8f8e94;
+}
+
+.dashboard-on {
+	color: #1976d2;
+}
+
+.dropyear {
+	padding: 0 15px;
+}
+
+.panel-body {
+	padding: 0;
+}
