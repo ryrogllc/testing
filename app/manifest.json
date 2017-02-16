@@ -1,0 +1,13 @@
+{
+  "short_name": "BluWater App",
+  "name": "BluWater App",
+  "icons": [
+    {
+      "src": "/images/launcher.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
