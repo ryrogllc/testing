@@ -1,0 +1,826 @@
+@media only screen and (min-width :100px) and (max-width : 400px) {
+
+.nowdetialbox h2 {
+	font-size: 17px;
+}
+.nowdetialbox h2 i {
+	font-size: 20px;
+	margin: -6px 10px 0 0;
+}
+.nowdetialmainTxt i {
+	font-size: 40px;
+}
+.nowdetialmainTxt span {
+	font-size: 30px;
+}
+.dayDetail .nowdetialmainTxt span {
+	font-size: 36px;
+}
+.nowdetialmainTxt {
+	min-height: 35px;
+}
+/*.nowdetialOn .nowdetialmainTxt {
+	min-height: 43px;
+}*/
+.nowdetialbox {
+	padding: 15px;
+}
+.nowdetialbox p {
+	font-size: 13px;
+}
+.lastUpdatemain h4 {
+	font-size: 14px;
+}
+.lastUpdatemain p {
+	font-size: 14px;
+}
+.lastUpdatemain {
+	padding: 0 5px;
+}
+.lastUpdatemain p i {
+	font-size: 16px;
+}
+/*.waterusehistmain h2 {
+	font-size: 18px;
+}*/
+/*.daymonthbtn ul li a {
+	font-size: 14px;
+	padding: 4px 20px;
+}*/
+.gallonsmain {
+	font-size: 13px;
+	color: #123e70;
+}
+/*.waterusehistmain h2 {
+	padding: 4px 0 0 10px;
+}*/
+.gallons {
+	padding: 0 10px;
+}
+.mydailyavrg {
+	padding: 0 10px;
+}
+.ftrmain ul li img {
+	width: 25px;
+}
+.ftrmain ul li a span {
+	font-size: 11px;
+}
+.mymonthlyrowlft {
+	font-size: 16px;
+}
+.mymonthlyrowRt {
+	font-size: 16px;
+}
+.mymonthlyrow {
+	padding: 10px 15px;
+}
+.usewtrhist .panel-title {
+	font-size: 17px;
+	padding: 13px 15px;
+}
+.iconarrow {
+	font-size: 20px;
+	margin: -2px 2px 0 0
+}
+.sldrmain p {
+	font-size: 17px;
+}
+.sldrmain .sldrnumbertxt {
+	font-size: 36px;
+	margin: 20px 0 0 0;
+}
+.gallonsused {
+	font-size: 13px;
+}
+#quote-carousel .carousel-control {
+	font-size: 1.3em;
+}
+.cumulativehead {
+	font-size: 13px;
+}
+.cumulativemain ul li {
+	font-size: 17px;
+}
+.headerBtnLft {
+	font-size: 14px;
+	padding: 0;
+}
+.headerBtnRt {
+	font-size: 14px;
+}
+/*.myHomeBox ul li .mydailyavrglft {
+	line-height: 20px;
+}*/
+.myHomeBoxupdte ul li .mydailyavrglft {
+	width: 55% !important;
+}
+.myHomeBox ul li .mydailyavrglft {
+	width: 52% !important;
+}
+.myHomeBoxupdte ul ul li .mydailyavrglft {
+	width: 50% !important;
+}
+.myHomeBox ul ul li .mydailyavrglft {
+	width: 48% !important;
+}
+.myHomeBox ul li .mydailyavrgRt {
+	width: 48% !important;
+}
+.myHomeBoxupdte ul li .mydailyavrgRt {
+	width: 48% !important;
+}
+/*.myHomeBox p {
+	font-size: 15px;
+}*/
+.checkbox {
+	margin: 0 0 10px 0;
+}
+.myHomeBox ul li h4.panel-title a {
+	padding: 3px 4px 0 10px;
+}
+.myHomeBox h5 {
+	font-size: 14px;
+}
+.headerBtnLft i {
+	font-size: 22px !important;
+}
+.myHmBxOutTxt i {
+	font-size: 18px;
+}
+.myHomeBoxSignOut {
+	font-size: 15px;
+}
+
+
+.lftrtCustwidth ul li .mydailyavrglft {
+	width:65% !important;
+}
+.lftrtCustwidth ul li .mydailyavrgRt {
+	width:35% !important;
+}
+.lftrtCustwidth ul ul li .mydailyavrglft {
+	width:65% !important;
+}
+.lftrtCustwidth ul ul li .mydailyavrgRt {
+	width:35% !important;
+}
+.editlftrtCustwidth ul li .mydailyavrglft {
+	width:30% !important;
+}
+.editlftrtCustwidth ul li .mydailyavrgRt {
+	width:70% !important;
+}
+.myHmBxAcrdnTxt {
+	font-size:12px;
+}
+.myHmBxAcrdnCheck {
+	padding:4px 0 0;
+}
+
+.myHomeBox  ul li .fullwidth {
+	width:100% !important;
+}
+
+/************ 27 28 29 pages Respo *************/
+.custBlueLogFrm input[type="text"], .custBlueLogFrm input[type="password"] {
+	font-size:14px;
+	padding:7px 15px 8px;
+}
+.custBlueLogFrm input[type="submit"] {
+	padding:7px 15px 7px;
+	font-size:16px;
+}
+.custBlueLogFrmTxt {
+	margin:20px 0 0;
+}
+.custBlueLogFrm p.loginTxt {
+	margin:0 0 20px;
+}
+/************ 30 top 44 pages Respo *************/
+.custBlueH3 {
+	font-size:18px;
+}
+.custBlueInrFrm input[type="text"], .custBlueInrFrm input[type="password"], .custBlueInrFrm select{
+	 font-size: 14px;
+    padding: 7px 15px 8px;
+}
+.custBlueInrFrm input[type="submit"] {
+	font-size:14px;
+	padding:7px 15px 8px;
+}
+.ftrBlue a {
+	font-size:14px;
+}
+
+
+
+.custBlueInrFrm p {
+	font-size:14px;
+}
+.custBlueLog {
+	padding:0 5px;
+}
+.blueWelcome h4 {
+	font-size:22px;
+}
+.blueWelcome p {
+	font-size:14px;
+}
+.blueWelcome ol li {
+	font-size:14px;
+}
+.btnSetup a {
+	padding:8px 16px;
+	font-size:13px;
+}
+}
+ @media only screen and (min-width : 401px) and (max-width : 500px) {
+
+.nowdetialbox h2 {
+	font-size: 18px;
+}
+.nowdetialbox h2 i {
+	font-size: 20px;
+	margin: -6px 10px 0 0;
+}
+.nowdetialmainTxt i {
+	font-size: 40px;
+}
+.nowdetialmainTxt span {
+	font-size: 30px;
+}
+.nowdetialbox.dayDetail .nowdetialmainTxt {
+	margin: 20px 0;
+}
+.dayDetail .nowdetialmainTxt span {
+	font-size: 36px;
+}
+.nowdetialmainTxt {
+	min-height: auto;
+}
+/*.nowdetialOn .nowdetialmainTxt {
+	min-height: 40px;
+}*/
+.nowdetialbox {
+	padding: 15px;
+}
+.nowdetialbox p {
+	font-size: 13px;
+}
+.lastUpdatemain h4 {
+	font-size: 16px;
+}
+.lastUpdatemain p {
+	font-size: 16px;
+}
+.lastUpdatemain {
+	padding: 0 5px;
+}
+.lastUpdatemain p i {
+	font-size: 18px;
+}
+/*.waterusehistmain h2 {
+	font-size: 18px;
+}*/
+/*.daymonthbtn ul li a {
+	font-size: 14px;
+	padding: 4px 20px;
+}*/
+.gallonsmain {
+	font-size: 13px;
+	color: #123e70;
+}
+/*.waterusehistmain h2 {
+	padding: 4px 0 0 15px;
+}*/
+.gallons {
+	padding: 0 15px;
+}
+.mydailyavrg {
+	padding: 0 15px;
+}
+.ftrmain ul li img {
+	width: 25px;
+}
+.ftrmain ul li a span {
+	font-size: 12px;
+}
+.mymonthlyrowlft {
+	font-size: 16px;
+}
+.mymonthlyrowRt {
+	font-size: 16px;
+}
+.mymonthlyrow {
+	padding: 10px 15px;
+}
+.usewtrhist .panel-title {
+	font-size: 17px;
+	padding: 13px 15px;
+}
+.iconarrow {
+	font-size: 20px;
+	margin: -2px 2px 0 0
+}
+.sldrmain p {
+	font-size: 17px;
+}
+.sldrmain .sldrnumbertxt {
+	font-size: 36px;
+	margin: 20px 0 0 0;
+}
+.gallonsused {
+	font-size: 13px;
+}
+#quote-carousel .carousel-control {
+	font-size: 1.3em;
+}
+.cumulativehead {
+	font-size: 13px;
+}
+.cumulativemain ul li {
+	font-size: 17px;
+}
+.headerBtnLft {
+	font-size: 14px;
+	padding: 0;
+}
+.headerBtnRt {
+	font-size: 14px;
+}
+/*.myHomeBox ul li .mydailyavrglft {
+	line-height: 20px;
+}*/
+.myHomeBoxupdte ul li .mydailyavrglft {
+	width: 55% !important;
+}
+.myHomeBox ul li .mydailyavrglft {
+	width: 52% !important;
+}
+.myHomeBoxupdte ul ul li .mydailyavrglft {
+	width: 50% !important;
+}
+.myHomeBox ul ul li .mydailyavrglft {
+	width: 48% !important;
+}
+.myHomeBox ul li .mydailyavrgRt {
+	width: 48% !important;
+}
+.myHomeBoxupdte ul li .mydailyavrgRt {
+	width: 48% !important;
+}
+/*.myHomeBox p {
+	font-size: 15px;
+}*/
+.checkbox {
+	margin: 0 0 10px 0;
+}
+.myHomeBox ul li h4.panel-title a {
+	padding: 3px 4px 0 10px;
+}
+.myHomeBox h5 {
+	font-size: 14px;
+}
+.headerBtnLft i {
+	font-size: 22px !important;
+}
+.myHmBxOutTxt i {
+	font-size: 18px;
+}
+.myHomeBoxSignOut {
+	font-size: 15px;
+}
+
+.lftrtCustwidth ul li .mydailyavrglft {
+	width:65% !important;
+}
+.lftrtCustwidth ul li .mydailyavrgRt {
+	width:35% !important;
+}
+.lftrtCustwidth ul ul li .mydailyavrglft {
+	width:65% !important;
+}
+.lftrtCustwidth ul ul li .mydailyavrgRt {
+	width:35% !important;
+}
+.editlftrtCustwidth ul li .mydailyavrglft {
+	width:30% !important;
+}
+.editlftrtCustwidth ul li .mydailyavrgRt {
+	width:70% !important;
+}
+.myHmBxAcrdnTxt {
+	font-size:12px;
+}
+.myHmBxAcrdnCheck {
+	padding:4px 7px 0;
+}
+.myHomeBox  ul li .fullwidth {
+	width:100% !important;
+}
+
+
+/************ 27 28 29 pages Respo *************/
+.custBlueLogFrm input[type="text"], .custBlueLogFrm input[type="password"] {
+	font-size:14px;
+	padding:7px 15px 8px;
+}
+.custBlueLogFrm input[type="submit"] {
+	padding:7px 15px 7px;
+	font-size:16px;
+}
+.custBlueLogFrmTxt {
+	margin:20px 0 0;
+}
+.custBlueLogFrm p.loginTxt {
+	margin:0 0 20px;
+}
+
+
+/************ 30 top 44 pages Respo *************/
+.custBlueH3 {
+	font-size:18px;
+}
+.custBlueInrFrm input[type="text"], .custBlueInrFrm input[type="password"], .custBlueInrFrm select{
+	 font-size: 14px;
+    padding: 7px 15px 8px;
+}
+.custBlueInrFrm input[type="submit"] {
+	font-size:14px;
+	padding:7px 15px 8px;
+}
+.ftrBlue a {
+	font-size:14px;
+}
+
+
+.custBlueInrFrm p {
+	font-size:14px;
+}
+
+
+.custBlueInrFrm p {
+	font-size:14px;
+}
+.custBlueLog {
+	padding:0 5px;
+}
+.blueWelcome h4 {
+	font-size:22px;
+}
+.blueWelcome p {
+	font-size:14px;
+}
+.blueWelcome ol li {
+	font-size:14px;
+}
+.btnSetup a {
+	padding:8px 16px;
+	font-size:13px;
+}
+}
+@media only screen and (min-width : 501px) and (max-width : 600px) {
+.nowdetialbox h2 {
+	font-size: 20px;
+}
+.nowdetialmainTxt i {
+	font-size: 60px;
+}
+/*.nowdetialOn p {
+	font-size: 16px;
+}*/
+.nowdetialbox p {
+	font-size: 16px;
+}
+.dayDetail .nowdetialmainTxt span {
+	font-size: 40px;
+}
+.nowdetialmainTxt span {
+	font-size: 36px;
+}
+.nowdetialmainTxt {
+	min-height: 60px;
+}
+.lastUpdatemain h4 {
+	font-size: 17px;
+}
+.lastUpdatemain p i {
+	font-size: 20px;
+}
+.lastUpdatemain p {
+	font-size: 17px;
+}
+/*.waterusehistmain h2 {
+	font-size: 22px;
+}*/
+/*.daymonthbtn ul li a {
+	font-size: 16px;
+}*/
+.mymonthlyrowlft {
+	font-size: 16px;
+}
+.mymonthlyrowRt {
+	font-size: 16px;
+}
+.mymonthlyrow {
+	padding: 10px 15px;
+}
+.usewtrhist .panel-title {
+	font-size: 17px;
+	padding: 13px 15px;
+}
+.iconarrow {
+	font-size: 20px;
+	margin: -2px 2px 0 0
+}
+.sldrmain p {
+	font-size: 17px;
+}
+.sldrmain .sldrnumbertxt {
+	font-size: 36px;
+	margin: 20px 0 0 0;
+}
+.gallonsused {
+	font-size: 13px;
+}
+#quote-carousel .carousel-control {
+	font-size: 1.5em;
+}
+.cumulativehead {
+	font-size: 13px;
+}
+.cumulativemain ul li {
+	font-size: 17px;
+}
+.headerBtnLft {
+	font-size: 14px;
+	padding: 0;
+}
+.headerBtnRt {
+	font-size: 14px;
+}
+/*.myHomeBox ul li .mydailyavrglft {
+	line-height: 20px;
+}*/
+.myHomeBoxupdte ul li .mydailyavrglft {
+	width: 55% !important;
+}
+.myHomeBox ul li .mydailyavrglft {
+	width: 52% !important;
+}
+.myHomeBoxupdte ul ul li .mydailyavrglft {
+	width: 50% !important;
+}
+.myHomeBox ul ul li .mydailyavrglft {
+	width: 48% !important;
+}
+.myHomeBox ul li .mydailyavrgRt {
+	width: 48% !important;
+}
+.myHomeBoxupdte ul li .mydailyavrgRt {
+	width: 48% !important;
+}
+/*.myHomeBox p {
+	font-size: 15px;
+}*/
+.checkbox {
+	margin: 0 0 10px 0;
+}
+.myHomeBox ul li h4.panel-title a {
+	padding: 3px 4px 0 10px;
+}
+.myHomeBox h5 {
+	font-size: 14px;
+}
+.headerBtnLft i {
+	font-size: 26px !important;
+}
+.myHmBxOutTxt {
+	line-height:normal;
+}
+
+.editlftrtCustwidth ul li .mydailyavrglft {
+	width:30% !important;
+}
+.editlftrtCustwidth ul li .mydailyavrgRt {
+	width:70% !important;
+}
+
+.myHmBxAcrdnTxt {
+	font-size:13px;
+}
+
+.myHomeBox  ul li .fullwidth {
+	width:100% !important;
+}
+
+
+
+/************ 27 28 29 pages Respo *************/
+.custBlueLogFrm input[type="text"], .custBlueLogFrm input[type="password"] {
+	font-size:14px;
+	padding:9px 15px 9px;
+}
+.custBlueLogFrm input[type="submit"] {
+	padding:9px 15px 9px;
+	font-size:16px;
+}
+.custBlueLogFrmTxt {
+	margin:20px 0 0;
+}
+.custBlueLogFrm p.loginTxt {
+	margin:0 0 20px;
+}
+
+/************ 30 top 44 pages Respo *************/
+.custBlueH3 {
+	font-size:20px;
+}
+.custBlueInrFrm input[type="text"], .custBlueInrFrm input[type="password"], .custBlueInrFrm select{
+	 font-size: 14px;
+    padding: 9px 15px 9px;
+}
+.custBlueInrFrm input[type="submit"] {
+	font-size:14px;
+	padding:9px 15px 9px;
+}
+.ftrBlue a {
+	font-size:16px;
+}
+
+.custBlueInrFrm p {
+	font-size:14px;
+}
+
+.custBlueInrFrm p {
+	font-size:15px;
+}
+.custBlueLog {
+	padding:0 5px;
+}
+.blueWelcome h4 {
+	font-size:22px;
+}
+.blueWelcome p {
+	font-size:15px;
+}
+.blueWelcome ol li {
+	font-size:15px;
+}
+.btnSetup a {
+	padding:10px 20px;
+	font-size:16px;
+}
+}
+ @media only screen and (min-width : 601px) and (max-width : 700px) {
+.nowdetialbox h2 {
+	font-size: 20px;
+}
+.nowdetialmainTxt i {
+	font-size: 60px;
+}
+/*.nowdetialOn p {
+	font-size: 16px;
+}*/
+.nowdetialbox p {
+	font-size: 16px;
+}
+.dayDetail .nowdetialmainTxt span {
+	font-size: 40px;
+}
+.nowdetialmainTxt span {
+	font-size: 36px;
+}
+.nowdetialmainTxt {
+	min-height: 60px;
+}
+.lastUpdatemain h4 {
+	font-size: 17px;
+}
+.lastUpdatemain p i {
+	font-size: 20px;
+}
+.lastUpdatemain p {
+	font-size: 17px;
+}
+/*.waterusehistmain h2 {
+	font-size: 22px;
+}*/
+/*.daymonthbtn ul li a {
+	font-size: 16px;
+}*/
+.mymonthlyrowlft {
+	font-size: 16px;
+}
+.mymonthlyrowRt {
+	font-size: 16px;
+}
+.mymonthlyrow {
+	padding: 10px 15px;
+}
+.usewtrhist .panel-title {
+	font-size: 17px;
+	padding: 13px 15px;
+}
+.iconarrow {
+	font-size: 20px;
+	margin: -2px 2px 0 0
+}
+.sldrmain p {
+	font-size: 17px;
+}
+.sldrmain .sldrnumbertxt {
+	font-size: 36px;
+	margin: 20px 0 0 0;
+}
+.gallonsused {
+	font-size: 13px;
+}
+#quote-carousel .carousel-control {
+	font-size: 1.5em;
+}
+.cumulativehead {
+	font-size: 13px;
+}
+.cumulativemain ul li {
+	font-size: 17px;
+}
+.myHomeBox  ul li .fullwidth {
+	width:100% !important;
+}
+
+.headerBtnLft {
+	font-size:15px;
+}
+.headerBtnRt {
+	font-size:15px;
+}
+
+.notAct {
+	font-size:15px;
+}
+
+
+/************ 27 28 29 pages Respo *************/
+.custBlueLogFrm input[type="text"], .custBlueLogFrm input[type="password"] {
+	font-size:14px;
+	padding:9px 15px 9px;
+}
+.custBlueLogFrm input[type="submit"] {
+	padding:9px 15px 9px;
+	font-size:16px;
+}
+.custBlueLogFrmTxt {
+	margin:20px 0 0;
+}
+.custBlueLogFrm p.loginTxt {
+	margin:0 0 20px;
+}
+
+/************ 30 top 44 pages Respo *************/
+.custBlueH3 {
+	font-size:20px;
+}
+.custBlueInrFrm input[type="text"], .custBlueInrFrm input[type="password"], .custBlueInrFrm select{
+	 font-size: 14px;
+    padding: 9px 15px 9px;
+}
+.custBlueInrFrm input[type="submit"] {
+	font-size:16px;
+	padding:9px 15px 9px;
+}
+.ftrBlue a {
+	font-size:16px;
+}
+.custBlueInrFrm p {
+	font-size:15px;
+}
+
+
+
+
+.custBlueInrFrm p {
+	font-size:15px;
+}
+
+.custBlueInrFrm p {
+	font-size:15px;
+}
+.custBlueLog {
+	padding:0 10px;
+}
+.blueWelcome h4 {
+	font-size:24px;
+}
+.blueWelcome p {
+	font-size:15px;
+}
+.blueWelcome ol li {
+	font-size:15px;
+}
+.btnSetup a {
+	padding:10px 20px;
+	font-size:16px;
+}
+}

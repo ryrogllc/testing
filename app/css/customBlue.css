@@ -1,0 +1,237 @@
+img {
+	max-width: 100%;
+}
+.bodyBgBlue {
+	background: #1976d2;
+}
+.custBlueLog {
+	width: 100%;
+	float: left;
+	padding: 0 25px;
+}
+.logo {
+	width: 70%;
+	margin: 0 15% 30px 15%;
+	float: left;
+	text-align: center;
+}
+.custBlueLogFrm {
+	width: 100%;
+	float: left;
+}
+.custBlueLogFrm input[type="text"], .custBlueLogFrm input[type="password"] {
+	background: #fff none repeat scroll 0 0;
+	border: 2px solid #cdcdd2;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-ms-border-radius: 11px;
+	-o-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	color: #000;
+	float: left;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 15px;
+	padding: 10px 15px 11px;
+	width: 100%;
+}
+.custBlueLogFrm input[type="submit"], .custBlueLogFrm input[type="button"] {
+	background: #8cbbe9;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-ms-border-radius: 11px;
+	-o-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	color: #fff;
+	float: left;
+	font-size: 19px;
+	font-weight: bold;
+	margin: 15px 0 20px 0;
+	padding: 12px 15px 11px;
+	width: 100%;
+	border: 0px;
+}
+/*
+.custBlueLogFrm input[type="submit"]:hover, .custBlueLogFrm input[type="button"]:hover {
+	background: #fff;
+	color: #0091ff;
+}
+*/
+
+.custBlueLogFrm p.loginTxt {
+	float: left;
+	width: 100%;
+	margin: 0 0 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+}
+.custBlueLogFrm p.loginTxt a {
+	color: #0091ff;
+}
+/*
+.custBlueLogFrm p.loginTxt a:hover {
+	color: #fff;
+}
+*/
+.custBlueLogFrmTxt {
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 0;
+}
+.custBlueInrFrm {
+	width: 100%;
+	float: left;
+}
+.custBlueInrFrm form {
+	float: left;
+	width: 100%;
+}
+.custBlueInrFrm input[type="text"], .custBlueInrFrm input[type="password"], .custBlueInrFrm select {
+	background: #fff none repeat scroll 0 0;
+	border: 2px solid #cdcdd2;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-ms-border-radius: 11px;
+	-o-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	color: #000;
+	float: left;
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0 0 15px;
+	padding: 10px 15px 11px;
+	width: 100%;
+}
+.custBlueInrFrm input[type="text"]:focus , .custBlueInrFrm input[type="password"]:focus {
+	color:#000;
+}
+
+.custBlueLogFrm input::-webkit-input-placeholder { color: #8f8e94; }
+.custBlueInrFrm input:-moz-placeholder           { color: #8f8e94; }
+.custBlueInrFrm input::-moz-placeholder          { color: #8f8e94; }
+.custBlueInrFrm input:-ms-input-placeholder      { color: #8f8e94; }
+
+.custBlueLogFrm input::-webkit-input-placeholder { color: #8f8e94; }
+.custBlueLogFrm input:-moz-placeholder           { color: #8f8e94; }
+.custBlueLogFrm input::-moz-placeholder          { color: #8f8e94; }
+.custBlueLogFrm input:-ms-input-placeholder      { color: #8f8e94; }
+
+
+.custBlueInrFrm input[type="submit"], .custBlueInrFrm input[type="button"] {
+	background: #f5fafe;
+	border-radius: 11px;
+	-moz-border-radius: 11px;
+	-ms-border-radius: 11px;
+	-o-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	color: #d1d1d6;
+	float: left;
+	font-size: 19px;
+	font-weight: bold;
+	margin: 15px 0 20px 0;
+	padding: 12px 15px 11px;
+	width: 100%;
+	border: 0px;
+}
+/*
+.custBlueInrFrm input[type="submit"]:hover, .custBlueInrFrm input[type="button"]:hover {
+	background: #2196f3;
+	color: #fff;
+}
+*/
+.custBlueInrFrmTxt {
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 0;
+}
+.custBlueH3 {
+	float: left;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 50px 0 30px;
+	text-align: center;
+	width: 100%;
+}
+.ftrBlue {
+	float: left;
+	padding: 16px 0;
+	text-align: center;
+	width: 100%;
+}
+.ftrBlue a {
+	color: #0091ff;
+	font-size: 14px;
+	font-weight: normal;
+}
+.custBlueInrFrm p {
+	color: #9f9fa5;
+	float: left;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 7px 0 10px;
+	width: 100%;
+}
+.entrPass {
+	margin: 0 10px 0 20px;
+	float: left;
+}
+.entrPassTxt {
+ 	color: #000;
+	float: left;
+	font-weight: normal;
+	font-size:15px;
+
+	margin: 3px 0 0px 15px;
+}
+.entrPassTxt a {
+	color: #0091ff;
+}
+.blueWelcome {
+	float: left;
+	width: 100%;
+}
+.blueWelcome h4 {
+	color: #fff;
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 0 0 20px;
+	text-align: center;
+	width: 100%;
+}
+.blueWelcome p {
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	float: left;
+	width: 100%;
+}
+.blueWelcome ol li {
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 0 0 8px;
+}
+.btnSetup {
+	float: left !important;
+	margin: 30px 0 0 !important;
+	text-align: center;
+	width: 100% !important;
+}
+.btnSetup a {
+	border: 1px solid #fff;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	color: #fff;
+	padding: 13px 26px;
+	display:inline-block;
+}
+/*
+.btnSetup a:hover {
+	background: #2196f3;
+}
+*/
