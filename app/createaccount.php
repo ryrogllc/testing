@@ -196,8 +196,7 @@
                                        id="password"/>
                                 <input type="text" placeholder="Re-enter password" value="" name="repassword"
                                        id="repassword"/>
-                                <p>Enter a combination of at least six letters, numbers and punctuataion marks (such as
-                                    ? and $). </p>
+                                <p>Enter a combination of at least six letters, numbers and punctuation marks (such as ? and $). </p>
                                 <p>&nbsp;</p>
                                 <p>
                                 <div class="checkbox checkbox-circle entrPass">
@@ -235,7 +234,11 @@
         if ($('#firstname').val() == '') {
             $('#step1val').html('First name required');
         } else if ($('#lastname').val() == '') {
+<<<<<<< HEAD
             $('#step1val').html('last name required');
+=======
+            $('#step1val').html('Last name required');
+>>>>>>> master
         } else {
             $('#step1').hide();
             $('#step2').show();
@@ -254,9 +257,15 @@
         var filter = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
 
         if ($('#emailid').val() == '') {
+<<<<<<< HEAD
             $('#step3val').html('Email Id required');
         } else if (!filter.test($('#emailid').val())) {
             $('#step3val').html('Please enter valid email id');
+=======
+            $('#step3val').html('Email required');
+        } else if (!filter.test($('#emailid').val())) {
+            $('#step3val').html('Please enter valid email ');
+>>>>>>> master
         } else {
             $('#step3').hide();
             $('#step4').show();
@@ -274,14 +283,22 @@
             $('.custLoader').hide();
             return false;
         } else if ($('#repassword').val() == '') {
+<<<<<<< HEAD
             $('#step4val').html('Re-Enter Password required');
+=======
+            $('#step4val').html('Re-Enter Password');
+>>>>>>> master
             $('.custLoader').hide();
             return false;
         }
 
         if ($('#password').val() != '' && $('#repassword').val() != '') {
             if ($('#password').val() != $('#repassword').val()) {
+<<<<<<< HEAD
                 $('#step4val').html("Both password doesn't match");
+=======
+                $('#step4val').html("The passwords don't match");
+>>>>>>> master
                 $('.custLoader').hide();
 
                 return false;
@@ -317,10 +334,17 @@
 
         $.get("/process.php?pro=<?php echo md5('createuser');?>&emailid=" + emailid + "&pwd=" + password + "&firstname=" + firstname + "&lastname=" + lastname + "&streetname=" + streetname + "&streetnumber=" + streetnumber + "&zip=" + zip + "&city=" + city + "&trans=" + trans, function (data) {
             if (data == 500) {
+<<<<<<< HEAD
                 $('#step4val').html('Error while processing.Kindly try again later');
                 $('.custLoader').hide();
             } else if (data == 403) {
                 $('#step4val').html('Account is already exist.Please try again with another Email Id');
+=======
+                $('#step4val').html('Error while processing. Please try again later');
+                $('.custLoader').hide();
+            } else if (data == 403) {
+                $('#step4val').html('Account already exists. Please try again with another Email address');
+>>>>>>> master
                 $('.custLoader').hide();
             } else if (data == 200) {
                 window.location.href = "/dashboard.php";

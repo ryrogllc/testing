@@ -2,23 +2,17 @@
     define('IN_APP',1);
     include('includes/is_logged_in.php');
 
-    //$transmitter = file_get_contents("http://data.cube.blue/v1/api.php?apikey=".get_user_token()."&more");
+    if(http_response_code() !=200){ // error while processing with API
+        header('Location: /pagenotfound.php');
+    }
 
-if(http_response_code() !=200){ // error while proceesing with API
-	header('Location: /pagenotfound.php');
-}
+    $utility = file_get_contents("http://data.cube.blue/v1/api.php?apikey=".get_user_token()."&more");
 
-//$transmitter = json_decode($transmitter);
+    if(http_response_code() !=200){ // error while processing with API
+        header('Location: /pagenotfound.php');
+    }
 
-$utility = file_get_contents("http://data.cube.blue/v1/api.php?apikey=".get_user_token()."&more");
-
-if(http_response_code() !=200){ // error while proceesing with API
-	header('Location: /pagenotfound.php');
-}
-
-$utility = json_decode($utility);
-
-
+    $utility = json_decode($utility);
 ?>
 
 <?php include('header.php');?>
@@ -42,13 +36,13 @@ $utility = json_decode($utility);
                     <a href="/waterutility.php">
                     <div class="more-left">Water Utility</div><div class="more-right"><span class="myHmBxOutTxt">
                     <?php if($utility->more[0]->more_utility_id!=''){
-                        
+
                         foreach($utility->utility_list as $util){
-                                    
+
                                     if($utility->more[0]->more_utility_id==$util->utility_id){
                                         echo $util->utility_nickname;
-                                    }   
-                                
+                                    }
+
                     }
                     }?>
                     <i class="fa fa-angle-right" aria-hidden="true"></i></span></div>
@@ -67,12 +61,6 @@ $utility = json_decode($utility);
             </ul>
         </div>
 
-
-        <div class="myHomeBox">
-            <ul>
-            	<li><a href="/setupins.php"><div class="more-left long">Set Up Instructions</div><div class="more-right long"><span class="myHmBxOutTxt"><i class="fa fa-angle-right" aria-hidden="true"></i></span></div></a></li>
-            </ul>
-        </div>
 
         <div class="myHomeBox">
             <ul>

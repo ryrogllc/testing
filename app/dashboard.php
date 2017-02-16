@@ -3,10 +3,6 @@ define('IN_APP',1);
 
 include('includes/is_logged_in.php');
 $local_user_token = get_user_token();
-$dashboard = file_get_contents("http://data.cube.blue/v1/api.php?apikey=".$local_user_token."&dashboard");
-if(http_response_code() !=200){ // error while proceesing with API
-  header('Location: /pagenotfound.php');
-}
 
 //if the user hasn't set their transmitter, set it here for them!
 $transmitter = file_get_contents("http://data.cube.blue/v1/api.php?apikey=" . $local_user_token . "&more");
@@ -15,6 +11,15 @@ $transmitter_id = $transmitter->more[0]->more_transmitter;
 if (!(is_numeric($transmitter_id) && ($transmitter_id > 20000))){
     header('Location: /transmitteredit.php');
 }
+
+
+$dashboard = file_get_contents("http://data.cube.blue/v1/api.php?apikey=".$local_user_token."&dashboard");
+if(http_response_code() !=200){ // error while proceesing with API
+  header('Location: /pagenotfound.php');
+}
+
+
+
 
 //back to the regular page load
 $dashboard = json_decode($dashboard);
