@@ -9,10 +9,6 @@ if(http_response_code() !=200){ // error while proceesing with API
 
 $history = json_decode($history);
 
-
-
-
-
 /**** Daily average ***/
 foreach($history->day_history as $historyKey=>$historyValue){
 	foreach($historyValue as $key1=>$val1){
